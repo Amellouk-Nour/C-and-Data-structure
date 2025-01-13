@@ -1,10 +1,29 @@
 # C-and-Data-Structure
 
-Ce dépôt est conçu pour faciliter la compréhension des structures de données en utilisant le C/C++. Il couvre les bases de la programmation en C/C++ comme les variables, les pointeurs, le passage par valeur, etc. De plus, il explore l'utilisation de la mémoire et les structures de données, des tableaux aux graphes. Le dépôt inclut également des explications sur des algorithmes classiques et avancés dans le domaine de l'informatique.
+Ce dépôt est conçu pour faciliter la compréhension des structures de données en utilisant le C/C++. Il est destiné aux étudiants en informatique, aux développeurs débutants et à toute personne intéressée par les bases de la programmation en C/C++. Le dépôt couvre les fondamentaux comme les variables, les pointeurs, le passage par valeur, et explore également l'utilisation de la mémoire et des structures de données complexes, des tableaux aux graphes. Vous trouverez aussi des explications sur divers algorithmes classiques et avancés en informatique.
 
-# C and C++ basics
-## Arrays
+## What is a Data Structure?
 
-*array are a collection of simalare data element*, pour déclarer un tableau de type disons d'entier en c/c++
+En base, un programme est un ensemble d'instructions qui effectue des opérations sur des données. Sans données, aucune instruction ne peut être exécutée. La manière dont un programme gère et organise les données dans la mémoire principale est ce que l'on appelle la structure de données.
 
-`int A[5]`
+### Types de Structures de Données
+
+- **Physical Datastructure**: Définit comment les données sont arrangées en mémoire.
+  - Arrays
+  - Matrices
+  - Linked Lists
+
+- **Logical Datastructure**: Définit comment les données peuvent être utilisées en mémoire.
+  - Stack
+  - Queue
+  - Trees
+  - Graphs
+  - Hashing
+
+## C and C++ Basics
+### Arrays
+
+Les tableaux sont une collection d'éléments de données similaires. Pour déclarer un tableau de type entier en C/C++:
+
+```c
+int A[5];
