@@ -55,7 +55,7 @@ int main(){
 
 Pour déclarer et initialiser un tableau :
 ```c
-    int B[5]={1,2,3,4,5};
+int B[5]={1,2,3,4,5};
 ```
 
 Par exemple, ici quand le programme est éxecuté, la fonction **main** est empiler et le tableau est stocké dans la _stack_ .
@@ -65,3 +65,13 @@ Pour stocker un élément d'indice i, sachant que dans un tableau de taille n-1 
 ```c
 A[i]=3;//ici on va inserer 3
 ```
+Pour pouvoir afficher tous les éléments d'un tableau en C++ :
+
+```c
+for(int x:D){
+  // x élément de D
+}
+```
+NB: si au moin une valeur du tableau est **_initailisé_** à la **_déclaration_** alors le reste des valeurs sera null, sinon si aucune valeur n'est affecté à une case donné alors elle contiendra une _garbage value_.
+
+
