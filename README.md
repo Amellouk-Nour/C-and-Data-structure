@@ -53,10 +53,15 @@ int main(){
 }
 ```
 
+Pour déclarer et initialiser un tableau :
+```c
+    int B[5]={1,2,3,4,5};
+```
+
 Par exemple, ici quand le programme est éxecuté, la fonction **main** est empiler et le tableau est stocké dans la _stack_ .
 
 Pour stocker un élément d'indice i, sachant que dans un tableau de taille n-1 les éléments sont indéxés de **0** à **n-1**, on peut utiliser l'instruction suivante en C/C++:
 
 ```c
-A[i]=3;
+A[i]=3;//ici on va inserer 3
 ```
