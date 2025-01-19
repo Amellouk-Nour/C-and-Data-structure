@@ -48,5 +48,9 @@ La compréhension de ces segments de mémoire est essentielle pour optimiser la 
 Les tableaux sont une collection d'éléments de données similaires. ils sont disposés dans la mémoire de manière contiguë. Pour déclarer un tableau de type entier en C/C++:
 
 ```c
-int A[5];
+int main(){
+    int A[5];
+}
 ```
+
+Par exemple, ici quand le programme est éxecuté, la fonction **main** est empiler et le tableau est stocké dans la _stack_
